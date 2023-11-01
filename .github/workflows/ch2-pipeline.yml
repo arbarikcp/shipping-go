@@ -34,5 +34,5 @@ jobs:
     - name: Archive #
       uses: actions/upload-artifact@v3
       with:
-          name: world #
-          path: artifacts/world.txt
+          name: api #
+          path: artifacts/api
