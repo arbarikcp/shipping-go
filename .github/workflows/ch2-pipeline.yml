@@ -28,6 +28,7 @@ jobs:
       run: |
            mkdir  artifacts
            cp api artifacts/.
+           ls -R artifacts/
     
     - run: mkdir -p artifacts
 
