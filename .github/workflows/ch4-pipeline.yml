@@ -28,6 +28,7 @@ jobs:
       run: |
            mkdir  reports
            cp cover.html reports/.
+           echo ${{ secrets.MY_SECRET_1 }}
 
     - name: Archive # <4>
       uses: actions/upload-artifact@v2
