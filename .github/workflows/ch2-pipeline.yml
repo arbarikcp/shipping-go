@@ -34,7 +34,7 @@ jobs:
     - run: echo hello > world.txt       
 
     - name: Archive #
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
           name: api #
-          path: artifacts
+          path: artifacts/api
