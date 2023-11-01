@@ -28,6 +28,7 @@ jobs:
       run: |
            mkdir  artifacts
            cp api artifacts/.
+           ls artifacts
 
     - name: Archive #
       uses: actions/upload-artifact@v2
