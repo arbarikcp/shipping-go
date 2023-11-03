@@ -18,6 +18,7 @@ func main() {
 	mux.HandleFunc("/health", handlers.HealthCheck) // <1>
 
 	log.Printf("listening on %s\n", addr)
+	log.Print("starting the server")
 
 	log.Fatal(http.ListenAndServe(addr, mux))
 }
