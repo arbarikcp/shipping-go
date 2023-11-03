@@ -32,7 +32,6 @@ jobs:
     name: Test Application
     needs: 
       - format-check
-      - lint
     runs-on: ubuntu-latest # <2>
     steps:
     - name: Set up Go 1.x 
